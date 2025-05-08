@@ -24,19 +24,20 @@ private int number2 = 3;
     }
 }
 
-public class Class2
+
+public class twoValues
 {
-    private int diffNumber1 = 10;
-    private int diffNumber2 = 20;
+    public int compareNumbers = 15;
+    public int compareNumbers2 = 15;
 
     public void Run()
     {
-        Console.WriteLine(IsNumberSame(diffNumber1, diffNumber2));
+        Console.WriteLine(IsValueSame(compareNumbers, compareNumbers));
     }
 
-    private bool IsNumberSame(int diffnum1, int diffnum2)
+    private bool IsValueSame(int compnum1, int compnum2)
     {
-        if (diffnum1 == diffnum2)
+        if (compnum1 == compnum2)
         {
             return true;
         }
@@ -44,5 +45,6 @@ public class Class2
         {
             return false;
         }
+       
     }
 }
