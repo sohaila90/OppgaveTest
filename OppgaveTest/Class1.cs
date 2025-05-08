@@ -23,3 +23,26 @@ private int number2 = 3;
         }
     }
 }
+
+public class Class2
+{
+    private int diffNumber1 = 10;
+    private int diffNumber2 = 20;
+
+    public void Run()
+    {
+        Console.WriteLine(IsNumberSame(diffNumber1, diffNumber2));
+    }
+
+    private bool IsNumberSame(int diffnum1, int diffnum2)
+    {
+        if (diffnum1 == diffnum2)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
