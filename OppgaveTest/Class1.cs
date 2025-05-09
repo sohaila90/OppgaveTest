@@ -2,12 +2,12 @@ namespace OppgaveTest;
 
 public class Class1
 {
-private int number1 = 2;
-private int number2 = 3;
+private int _number1 = 2;
+private int _number2 = 3;
     
     public void Run()
     {
-        Console.WriteLine(CheckNumber(number1, number2));
+        Console.WriteLine(CheckNumber(_number1, _number2));
         
     }
 
@@ -25,14 +25,14 @@ private int number2 = 3;
 }
 
 
-public class twoValues
+public class TwoValues
 {
-    public int compareNumbers = 15;
-    public int compareNumbers2 = 15;
+    public int CompareNumbers = 15;
+    public int CompareNumbers2 = 15;
 
     public void Run()
     {
-        Console.WriteLine(IsValueSame(compareNumbers, compareNumbers));
+        Console.WriteLine(IsValueSame(CompareNumbers, CompareNumbers2));
     }
 
     private bool IsValueSame(int compnum1, int compnum2)

@@ -7,5 +7,5 @@ var class2 = new Class2();
 class2.Run();
 
 
-var twoValues = new twoValues();
+var twoValues = new TwoValues();
 twoValues.Run();
